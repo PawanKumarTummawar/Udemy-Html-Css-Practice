@@ -1,11 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML & CSS Sandbox</title>
-  </head>
-  <body>
-    <h1>HTML & CSS Sandbox - Checkboxes & Radio</h1>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML & CSS Sandbox</title>
+    </head>
+    <body>
+        <h1>Favourite Programming Languages</h1>
+        <form>
+            <label for="html">
+                <input
+                    type="checkbox"
+                    name="languages"
+                    id="html"
+                    value="html"
+                    checked
+                />
+                HTML
+            </label>
+
+            <label for="css">
+                <input
+                    type="checkbox"
+                    name="languages"
+                    id="css"
+                    value="css"
+                    disabled
+                />
+                CSS
+            </label>
+
+            <label for="javascript">
+                <input
+                    type="checkbox"
+                    name="languages"
+                    id="javascript"
+                    value="javascript"
+                />
+                JAVASCRIPT
+            </label>
+        </form>
+
+        <form>
+            <label for="small">
+                <input type="radio" name="size" value="small" id="small" />
+                Small
+            </label>
+            <label for="large">
+                <input type="radio" name="size" value="large" id="large" />
+                Large
+            </label>
+            <label for="xtralarge">
+                <input
+                    type="radio"
+                    name="size"
+                    value="xtralarge"
+                    id="xtralarge"
+                />
+                JAVASCRIPT
+            </label>
+        </form>
+    </body>
 </html>
