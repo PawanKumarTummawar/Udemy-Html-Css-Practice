@@ -1,11 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML & CSS Sandbox</title>
-  </head>
-  <body>
-    <h1>HTML & CSS Sandbox - Select & Textarea</h1>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML & CSS Sandbox</title>
+    </head>
+    <body>
+        <h1>HTML & CSS Sandbox - Select & Textarea</h1>
+
+        <form>
+            <label for="product">Product</label>
+            <select name="product" id="product" multiple size="4">
+                <option value="iphone">iPhone</option>
+                <option value="imac">iMac</option>
+                <option value="macbook" selected>macBook</option>
+                <option value="macbook-pro">macBook Pro</option>
+            </select>
+            <br />
+            <br />
+
+            <textarea
+                name="textarea"
+                id="textarea"
+                placeholder="Enter your text here..."
+                cols="40"
+                rows="5"
+            ></textarea>
+
+            <br />
+            <input type="submit" value="submit" />
+        </form>
+    </body>
 </html>
