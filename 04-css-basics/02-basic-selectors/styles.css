@@ -1,0 +1,39 @@
+html, body {
+    font-family: Arial, sans-serif;
+    border: solid 3px black;
+}
+
+/* h2 {
+    color: red;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+} */
+
+#container {
+    padding: 10px;
+}
+.sporty {
+    color: red;
+}
+
+.casual {
+    color: blue;
+}
+
+.formal {
+    color: brown;
+}
+
+/* Multiple selectors */
+p, .casual {
+    font-size: 30px;
+}
+
+/* Descendant selectors */
+#container p {
+    background-color: aqua;
+}
