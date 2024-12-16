@@ -9,8 +9,15 @@ body {
 }
 
 .box {
-  background: coral;
+  /* background: coral; */
   max-width: 400px;
   margin: 20px;
   padding: 20px;
+}
+
+.box-1 {
+  
+  border-top: 3px blue solid;
+  border-top-left-radius: 10px;
+  border-bottom: 3px red solid;
 }
