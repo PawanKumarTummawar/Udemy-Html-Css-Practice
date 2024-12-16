@@ -1,6 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
+
 }
 
 .hero {
@@ -10,6 +11,14 @@ body {
   justify-content: center;
   align-items: center;
   padding: 0 20px;
+
+  /* background-color: red; */
+  background-image: url(./hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  background: linear-gradient(to right, darkorange, darkblue);
 }
 
 .hero h1 {
@@ -21,3 +30,5 @@ body {
   text-align: center;
   font-size: 2rem;
 }
+
+
