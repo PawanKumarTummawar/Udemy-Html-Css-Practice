@@ -32,6 +32,8 @@ p {
 header {
   background-color: coral;
   padding: 40px;
+  display: flex;
+  justify-content: center;
 }
 
 .main-menu {
