@@ -13,7 +13,7 @@ ul {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none; 
   color: #333;
 }
 
@@ -65,4 +65,37 @@ h2 {
   padding: 10px;
   background: #f4f4f4;
   border-bottom: 1px solid #ccc;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 10px;
+  }
+
+  .header h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .main-menu {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .main-menu li {
+    border-bottom: 1px solid black;
+    padding-bottom: 7px;
+  }
+
+  .main-menu li.last-list-item {
+    border: none;
+  }
+
+  .main {
+    flex-direction: column-reverse;
+  }
+
+  .main aside {
+    width: 100%;
+  }
 }
